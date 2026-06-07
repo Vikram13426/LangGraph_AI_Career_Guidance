@@ -1,0 +1,111 @@
+# ==========================
+# Python
+# ==========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environment
+# ==========================
+
+venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+
+.env
+
+# ==========================
+# Flask
+# ==========================
+
+instance/
+.webassets-cache
+
+# ==========================
+# IDE Files
+# ==========================
+
+.vscode/
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
+
+# ==========================
+# Uploaded Resumes
+# ==========================
+
+uploads/*
+
+# Keep folder structure
+!uploads/.gitkeep
+
+# ==========================
+# Memory Files
+# ==========================
+
+memory/career_history.json
+
+# Keep folder structure
+!memory/.gitkeep
+
+# ==========================
+# ChromaDB Vector Store
+# ==========================
+
+vector_store/*
+
+# Keep folder structure
+!vector_store/.gitkeep
+
+# ==========================
+# Python Packaging
+# ==========================
+
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Jupyter
+# ==========================
+
+.ipynb_checkpoints/
+
+# ==========================
+# Temporary Files
+# ==========================
+
+*.tmp
+*.temp
+
+# ==========================
+# Cache
+# ==========================
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Coverage
+# ==========================
+
+.coverage
+htmlcov/
