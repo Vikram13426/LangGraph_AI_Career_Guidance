@@ -3,7 +3,7 @@
 
 **An AI-powered Career Guidance Assistant built with LangGraph** to demonstrate real-world, production-grade AI application architecture.
 
----
+
 
 ## Project Goal
 
@@ -21,13 +21,11 @@ Instead of relying on a single massive prompt sent to an LLM, the application br
 
 Each step is implemented as a **LangGraph node**.
 
----
 
 ## Why Not Use One Prompt?
 
 A traditional AI application often looks like this:
 
-```
 User Input
      +
 Resume
@@ -101,7 +99,7 @@ flowchart TD
 
 This is **not a simple linear chain**. The workflow uses conditional routing based on available data.
 
----
+
 
 ## Conditional Workflow
 
