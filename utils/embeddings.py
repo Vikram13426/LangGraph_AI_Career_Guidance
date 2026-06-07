@@ -1,3 +1,5 @@
+# utils/embeddings.py
+
 from langchain_huggingface import (
     HuggingFaceEmbeddings
 )
