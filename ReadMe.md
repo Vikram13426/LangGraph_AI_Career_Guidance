@@ -1,5 +1,4 @@
 
-```markdown
 # CareerForge AI - LangGraph Architecture Deep Dive
 
 **An AI-powered Career Guidance Assistant built with LangGraph** to demonstrate real-world, production-grade AI application architecture.
@@ -43,7 +42,7 @@ History
       Gemini
         ↓
      Response
-```
+
 
 This approach works for small applications but becomes difficult to **maintain, debug, scale, and extend**. If one component fails, the entire workflow becomes hard to understand.
 
